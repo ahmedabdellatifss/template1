@@ -1,0 +1,465 @@
+body
+{height:4000px
+}
+.container {width:940px; margin:auto}
+.clearfix{clear:both}
+
+.header .slider {background-image:url('../images/digital.jpg');
+                   -webkit-background-size:cover; /*CSS3*/
+                  
+                   -o-background-size:cover; /*CSS3*/
+                   background-size:cover; /*CSS3*/
+                  
+                    height:700px}
+
+.header .slider .intro { padding-top: 200px;
+                          height:600px;
+                          text-align:center;
+                          color:#FFF}
+.header .slider .intro h2 {margin:0 auto; font-size: 50px;
+                           width:600px;
+                           border-top: 4px solid #FFF;
+                           border-bottom: 4px solid #FFF;
+                           padding:5px 0}
+ .header .slider .intro button { background:none;
+                                
+                                margin-top: 30px;
+                                font-size:20px;
+                                border:2px solid #FFF;
+                                font-weight:bold;
+                                padding:10px 20px}
+                                
+.header .navbar{background-color:#252f31; color:#fff; overflow:hidden}
+
+.header .navbar h2{float:left}
+
+.header .navbar h2 span{color:#2ecc71}
+
+.header .navbar ul {
+                     list-style:none;
+                     padding-left:0;
+                     overflow:hidden;
+                     float:right;
+                     text-transform:uppercase;}
+
+.header .navbar ul li {
+ float:left;
+ padding: 10px }
+
+.header .navbar ul li a {
+ color:#FFF;
+ text-decoration: none
+ }
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {color:#30B576}
+
+/* start features*/
+
+.features { overflow: hidden;
+padding-top: 40px;
+padding-bottom: 50px}
+
+.features .feat {float: left;
+width:33.333%;
+height:150px;}
+
+.features .feat p {line-height:1.6;
+                    color:#888;
+                    padding:0 20px 0 0}
+.features .feat h2 {color:#444}
+
+/* End Features */
+
+
+/* Start About Me */
+
+ .about-me {
+  background: #f2f2f2;
+ overflow: hidden
+ }
+ 
+ .about-me .image {
+  width:40%;
+  height:100%;
+  float:left
+  }
+ 
+ .about-me .info {
+  width:60%;
+  float:left
+  }
+ 
+ .about-me .info h2 {
+  margin:5px 0 5px 40px;
+  color:#555
+  }
+ 
+ .about-me .info >p {
+  margin:0px 0 5px 40px;  /* firest p int hatakblh fi elinfo */
+    }
+    
+ .about-me .info >p:last-of-type {
+  margin-top:15px;
+  line-height:1.7;
+  color:#666
+  }
+  
+  .about-me .info p {
+line-height:1.6;
+color:#666
+}
+                     
+ .about-me .image img { width: 100%}
+ 
+ 
+ .about-me .info .hobbies {
+  overflow: hidden;
+  margin:0px 0 0 40px
+  }
+ 
+ 
+ .about-me .info .hobbies .content {
+  float:left;
+ width:50%;
+
+ overflow:hidden}
+ 
+ .about-me .info .hobbies .content h3 {color:#555}   /*el h3 eligoa div eli goa hobbies*/
+ 
+ .about-me .info .hobbies .content .icon {
+  float:left;
+  width:12%;
+  margin-right:5%
+ }
+ .about-me .info .hobbies .content .icon img {
+  max-width:100%;
+  margin:20px 10px 0 0
+  }
+ .about-me .info .hobbies .content .text {
+  float:left;
+  width: 83%}
+  
+  .about-me .info .hobbies .content .text p {margin-top:0px}
+  
+  .about-me .info .hobbies .content .text h3 {margin-bottom: 5px}
+ 
+/* End About Me */
+
+
+/* Start About Me */
+
+.my-skills{overflow:hidden; padding-top: 30px; padding-bottom:30px}
+.my-skills .skills,
+.my-skills .progress {width:50% ; float : left;}
+
+
+ .my-skills .skills h2 {
+  margin:5px 0 5px 40px;
+  color:#555
+  }
+ 
+ .my-skills .skills p {
+  margin:0px 0 5px 40px;  /* firest p int hatakblh fi elinfo */
+    line-height:1.6;
+                color:#666}
+    
+ .my-skills .skills p:last-of-type {
+  margin-top:15px;
+}
+
+ .my-skills .skills button {
+ 
+  margin-left:40px;
+  margin-top:20px;
+  }
+  .my-skills .skills .technique{ margin-left:50px}
+  .my-skills .skills .technique h3 { color :#555}
+  .my-skills .skills .technique div {background-color:#F2F2F2; height:25px}
+  .my-skills .skills .technique div span {
+   background-color:#2DCC70;
+   width:80%; 
+   height:25px;
+   line-height:25px;
+   display :block;/* 3shan elspan 3nsour inline 3shan azhro lazm a3melo dsplay block */
+   text-align:right;
+   color:#FFF;
+   font-weight:bold
+         
+  }
+  
+/* End About Me */
+
+/* Start Resume */
+
+.resume {
+ background-color:#F2F2F2;
+ padding-top: 30px;
+ padding-bottom: 30px ;
+ text-align:center
+ }
+ .resume h2 {
+  text-transform:uppercase;
+  font-weight: bold;
+  color:#555
+ }
+ .resume p{
+  line-height:1.7;
+  color:#666;
+  padding:0 40px}
+ .resume button { margin-top:15px;}
+
+ 
+/* Start My education */
+.my-education {
+ overflow:hidden;
+ padding-top: 30px;
+ padding-bottom: 30px ;
+ }
+ 
+ .my-education  hr {
+  margin:20px 0;
+  background-color:#999;
+  height:1px;
+  border:0}
+ 
+.my-education .main{
+  width:50% ;
+  margin-right:5%;
+ float:left
+}
+
+
+
+.my-education .main h2 {
+  margin:5px 0 5px 40px;
+  color:#555
+  }
+ 
+ .my-education .main p {
+   margin:0px 0 5px 40px;  /* firest p int hatakblh fi elinfo */
+   line-height:1.3;
+   color:#666}
+    
+ .my-education .main p:last-of-type {
+  margin-top:15px;
+}
+
+
+.my-education .main h2 {
+  margin:5px 0 5px 40px;
+  color:#555
+  }
+ 
+ .my-education .main p {
+  margin:0px 0 5px 40px;  /* firest p int hatakblh fi elinfo */
+    line-height:1.3;
+                color:#666}
+    
+ .my-education .main p:last-of-type {
+  margin-top:15px;
+}
+
+.my-education .exp{
+ width:45% ;
+ float:left
+ }
+ .my-education .exp h3 {
+  margin-top:80px;
+  margin-bottom:10px
+ }
+ .my-education .exp span {
+  display:block;
+  margin-bottom:10px
+ }
+.my-education .exp span:first-of-type{color:#999}
+
+.my-education .exp span:last-of-type{
+ background-color:#2DCC70;
+ color:#FFF;
+ padding:4px 10px;
+ display:inline-block /*العنصر انلين ما بيخدش الفل ويدس وفي نفس الوقت بيتعامل معاملت البلوك فتلاقي البادنج بتاعه عامل المسفات اللي بتكون مش كويسه
+                       *لاكن انا مش عاوز البادنجد هلانه بيكون عامل زي اللينك
+                       *ولو عملتله بادنج البادنج هيدخل في العناصراللبعده واللي قبله
+                       *اما انلينبلوك بيجمع بين التنين مابيخدش الفل ويدس وفينفس الوقت البادنج بتاعه عامل المسافات اللي بتكون موجوده */
+ }
+ 
+  .my-education .exp p {
+   line-height: 1.3;
+   color:#777
+  }
+ /* End  My education */
+ 
+/* start testimonails */
+
+.testimonails {
+
+ padding-top: 50px;
+ padding-bottom: 70px ;
+ text-align:center
+ }
+ .testimonails q {
+  line-height:1.3;
+  color:#888;
+  font-size:18px;
+  font-style:italic;
+  font-weight:bold
+ }
+ .testimonails h3 {
+  color:#777;
+  margin-bottom:30px
+ }
+ .testimonails ul {
+  list-style:none;
+  padding-left:0;
+  text-align:center;
+
+  }
+ .testimonails ul li {
+  width:15px;
+  height:15px;
+  border:2px solid #2DCC70;
+  display:inline-block;
+  cursor: pointer 
+ }
+ .testimonails ul li.active,
+.testimonails ul li:hover {background-color:#2DCC70}
+/* start portfolio */
+
+.portfolio {
+ padding-top: 50px;
+padding-left:70px;
+text-align: center
+}
+.portfolio h2{
+ color:#777
+}
+.portfolio p {
+ line-height:1.7;
+ color:#666;
+ margin-bottom:30px
+}
+.portfolio .our-work {
+ overflow:hidden
+ }
+.portfolio .our-work > div {float:left;
+width:33.333%;
+margin-bottom: 10px
+}
+ 
+.portfolio .our-work > div img {
+ width:92%;
+ margin:10px;
+ padding:3px;
+ background-color: #FFF;
+ border:1px solid #CCC;
+ box-shadow:10px 10px 5px #CCC
+ }
+
+/* start contact me */
+
+.contact .form {width:50%; float: left}
+
+.contact {
+ background-color:#252F31;
+ overflow:hidden;
+ padding-top:50px;
+ padding-bottom:70px
+ }
+
+ .contact .info {
+  width:50%;
+  float: left;
+  
+  }
+ .contact h2 {
+  color:#FFF;
+  margin-left:40px;
+  
+  }
+  
+ 
+  
+ .contact p {
+  color:#6A6E71;
+  margin-left:40px;
+  line-height:1.6
+  }
+  .contact p strong {color:#D1D6DA}
+ 
+  .contact .info {
+   width:45%;
+   float: left
+   }
+ 
+ .contact .form label {
+  display:block;
+  color:#D1D6DA;
+  margin: 10px 0
+ }
+ 
+ 
+ .contact .form input[type="text"] {
+  background-color:#4B5557;
+  color:#FFF;
+  padding:10px;
+  border: 0;
+  width:80%;
+  margin-bottom:10px
+  }
+ .contact .form textarea {
+  background-color:#4B5557;
+  color:#FFF;
+  padding:10px;
+  border: 0;
+  width:80%;
+  margin-bottom:10px;
+  height:300px
+  }
+  .contact .form input[type="submit"]{
+   background-color: #191E22;
+   color:#FFF;
+   padding:10px 20px;
+   border:0;
+   margin-top:10px
+  }
+ 
+  /* start footer */
+  
+ .footer {
+  background-color:#191E22;
+  color:#6A6E71;
+  padding:20px 0;
+  text-align:center;
+  overflow:hidden
+  }
+  
+  
+  .footer ul {
+   list-style:none;
+    padding-left:0;
+    margin:10px 0 0;   
+    }
+  
+  .footer ul li {display:inline-block}
+  .footer ul li img {
+   display:block;
+   width:32px;
+   height:32px
+  }
+ /*Start My Framework */
+                          /*عباره عن برواز عمل فيه مجموعة كلاسات ومكتبه بتشتغل انت بيها دايماالمكتبه دي هتنفعك في التصميم جدا هعمل
+                           *button
+                           *
+                         فيه خواص مشتركه هستخدم الزرار ده في التصميم كذا مره */
+ .my-button {
+  background:none;
+  border:3px solid #2DCC70;
+  color:#2DCC70;
+  padding:10px 30px;
+  font-weight:bold
+  
+  }
+ 
+ /*End My Framework */
+ 
+ 
